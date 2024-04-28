@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /components/pages/Home
+Allow: /components/properties/Apartments
+Allow: /components/properties/Houses
