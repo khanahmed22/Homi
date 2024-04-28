@@ -1,0 +1,563 @@
+.search-box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 30%;
+  font-size: 20px;
+}
+
+.search-box button {
+  padding: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  width: 6%;
+  background-color: #70a1ff;
+  transition: background-color 0.25s ease-in;
+
+}
+
+.search-box button:hover {
+  background-color: #0F52BA;
+}
+
+.search-icon {
+  width: 30px;
+  fill: white;
+}
+
+.apartments {
+
+  margin-top: 80px;
+  background-color: #70a1ff;
+  background-image: linear-gradient(315deg, #70a1ff 0%, #c2c0c0 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.apartments svg {
+  width: 100px;
+}
+
+.apartments h1 {
+  font-weight: 700;
+}
+
+.houses {
+  margin-top: 80px;
+  background-color: #70a1ff;
+  background-image: linear-gradient(315deg, #70a1ff 0%, #c2c0c0 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.houses svg {
+  width: 130px;
+}
+
+.houses h1 {
+  font-weight: 700;
+}
+
+
+
+.Grid-A,
+.Grid-H {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.Grid-A-components,
+.Grid-H-components {
+  background-color: #f0f8ff;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: box-shadow 0.25s ease;
+  border: 1px solid rgb(190, 220, 230);
+  cursor: pointer;
+
+}
+
+
+.Grid-A-components:hover {
+
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Grid-H-components:hover {
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.Grid-A-components img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  aspect-ratio: 3/3.5;
+
+}
+
+.Grid-H-components img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  aspect-ratio: 3/3.5;
+}
+
+.Grid-A-components h3 {
+  font-weight: 700;
+}
+
+.Grid-H-components h3 {
+  font-weight: 700;
+}
+
+.property-display-pg {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.house-name {
+  font-weight: 700;
+}
+
+
+.house-img {
+  width: 40%;
+  aspect-ratio: 4/3.5;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.ap-selector,
+.h-selector {
+
+  background-color: #007AFF;
+  border: none;
+  padding: 15px;
+  margin-right: 15px;
+
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+
+
+
+}
+
+.ap-selector a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 70px;
+
+}
+
+.h-selector a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 70px;
+
+}
+
+
+
+.property-name {
+
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-name button {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: #F8F8FF;
+  transition: background-color 0.25s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px;
+
+  border: 1px solid black;
+}
+
+.property-name button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  fill: white;
+}
+
+
+
+
+.enquire-container {
+  display: flex;
+  justify-content: space-around;
+  width: 27%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.enquire-container button {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.call-icon,
+.mail-icon,
+.whatsapp-icon {
+  width: 20px;
+}
+
+
+
+
+
+
+
+
+.Grid-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 20px;
+  margin-left: 20px;
+  column-gap: 20px;
+}
+
+.Grid-more-info {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 220, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Grid-more-info h3 {
+
+  font-weight: 700;
+}
+
+.features {
+  background-color: #0F52BA;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.features h3 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.features span {
+  font-weight: bold;
+}
+
+.features p {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.location-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f0f8ff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+.location-div h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.google-map {
+  width: 500px;
+  height: 400px;
+}
+
+.builder-div {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 100px;
+
+
+
+
+}
+
+.builder-pic {
+  display: flex;
+  background-color: #0F52BA;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+
+
+}
+
+.builder-pic img {
+  padding: 10px
+}
+
+
+
+.builder-profile {
+
+  padding: 10px;
+  background-color: #0F52BA;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+
+
+
+}
+
+.builder-profile p {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+
+
+}
+
+.builder-profile h2 {
+  font-size: 20px;
+}
+
+.builder-profile h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 17px;
+
+}
+
+.builder-profile p:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width:800px) {
+
+
+
+
+
+  .house-name {
+    font-size: 23px;
+  }
+
+
+  .Grid-A,
+  .Grid-H {
+
+    grid-template-columns: auto;
+    row-gap: 15px;
+  }
+
+  .house-img {
+    width: 100%;
+    border-radius: 5px;
+    aspect-ratio: 3/3.5;
+  }
+
+
+  .Grid-A-components,
+  .Grid-H-components {
+
+    width: 100%;
+  }
+
+  .Grid-A-components img {
+
+    width: 100%;
+    aspect-ratio: 3/3.5;
+  }
+
+  .Grid-H-components img {
+    width: 100%;
+    aspect-ratio: 3/3.5;
+  }
+
+  .apartments h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .houses h1 {
+    font-size: 20px;
+  }
+
+  .search-box input {
+    width: 50%;
+    padding: 15px;
+    font-size: 12px;
+
+  }
+
+  .search-icon {
+    width: 20px;
+  }
+
+  .search-box button {
+    width: 44px;
+    padding: 11px;
+  }
+
+  .Grid-info {
+    grid-template-columns: auto;
+    row-gap: 20px;
+  }
+
+  .enquire-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .enquire-container button {
+    width: 53px;
+    margin-left: 5px;
+    margin-right: 0;
+
+  }
+
+  .call-icon {
+    width: 30px;
+  }
+
+  .mail-icon {
+    width: 30px;
+  }
+
+  .call-text {
+    display: none;
+  }
+
+  .mail-text {
+    display: none;
+  }
+
+  .whatsapp-text {
+    display: none;
+  }
+
+  .google-map {
+    width: 100%;
+    height: 300px;
+  }
+
+  .location-div {
+    flex-direction: column;
+  }
+
+
+
+  .builder-div {
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .builder-profile {
+    padding: 5px;
+  }
+
+  .builder-profile h2 {
+    font-size: 17px;
+  }
+
+  .builder-profile h3 {
+    font-size: 16px;
+  }
+
+  .builder-profile p {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
